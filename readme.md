@@ -61,3 +61,14 @@ Empty skip list
 
 Note:
 ```As a skip list is a randomized data structure, its structure may vary with each execution of the code.As skip list is randomized data structure the structure of skip list need to be same always when you run the code!!```
+
+## skipList_vs_set
+- We have the code of skip list, why not comparing it with set in C++?
+- ![](skipList_vs_set/images/running1.png)
+
+
+### Observations and results 🏅
+- There is no output of diff command, implies that the output of my skip list code and set are the same which strengthens the expectation that the skip list code indeed works as expected.
+  - ![](skipList_vs_set/images/running2.png)
+- Time consumed by my skip list code is comparable and similar to as that of time consumed by set in C++!!
+  - ![](skipList_vs_set/images/comparision.png)
