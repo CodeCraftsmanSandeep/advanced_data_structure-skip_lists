@@ -1,4 +1,4 @@
-# Skip list 📈
+# Skip list 
 Hi there! 👋
 Welcome to my repository!  
 In this project, I have implemented an advanced randomized data structure: the **Skip List** in C++. Additionally, I have compared its correctness and execution time against the C++ `set`. This README file will guide you through the repository. I hope you enjoy exploring it! 🎉
