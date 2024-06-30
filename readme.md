@@ -3,7 +3,7 @@
 | | description |
 |:--|:---|
 | [include](include/) | Contains a header file [skip_list.h](include/skip_list.h) which contains my skip list implementation. This header file can be included to use skip list (just as library/API). This provides a nice way of abstracting things while using complicated logic. If you are wondering what is skip list, see this [MIT lecture](https://www.youtube.com/watch?v=2g9OSRKJuzM&t=1780s).
-| [skipList_vs_set](skipList_vs_set/) | Contains script to compare the outputs and execution time of C++ set an my implementation skip list(which is cool!). For more details about what is done in [skipList_vs_set](skipList_vs_set/) see  [skipList_vs_set/readme.md](skipList_vs_set/readme.md)|
+| [skipList_vs_set](skipList_vs_set/) | Contains script to compare the outputs and execution time of C++ set an my implementation skip list(which is cool!). For more details about what is done in [skipList_vs_set](skipList_vs_set/) see [this section](#skiplist_vs_set) |
 | [src](src/) | [src/source_code.cpp](src/source_code.cpp) will insert, search and delete some sample elements. Below section(Running source_code.cpp) describes how to run and the output of [src/source_code.cpp](src/source_code.cpp) |
 
 
@@ -64,6 +64,8 @@ Note:
 
 ## skipList_vs_set
 - We have the code of skip list, why not comparing it with set in C++?
+
+### How I compared in [skipList_vs_set](skipList_vs_set/)
 - ![](skipList_vs_set/images/running1.png)
 
 
