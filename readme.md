@@ -138,9 +138,48 @@ In this section, I compare my skip list implementation with the C++ `set`, which
   
   ![](skipList_vs_set/images/running2.png)
 
-- **Performance**: The time taken by the skip list is comparable to the `set` in C++! This shows the efficiency of the skip list.
+- **Performance**: The time taken by the skip list is comparable to the `set` in C++! This shows the efficiency of the skip list. The units of time on y-axis is seconds
 
   ![](skipList_vs_set/images/comparision.png)
+
+
+
+# Skip List vs Set Performance Benchmark
+
+This benchmark compares the execution times of two data structures: **Skip List** and **Set**, based on 10,000 test cases. The goal is to measure how closely the performance of the two structures aligns, using a calculated closeness percentage.
+
+## Benchmark Details
+
+- **Number of Tests**: 10,000
+- **Input Generation**: Inputs are generated using the Python script `helper/generate_input.py`.
+- **Measurement**: Execution times for both `skip_list` and `set` implementations are measured using the `date` command in nanoseconds.
+- **Tools Used**:
+  - **Binaries**: `skip_list.out` and `set.out`
+  - **Helper Scripts**: `generate_input.py` (for input generation) and `plot_time.py` (for plotting results).
+
+## Closeness Calculation
+
+Closeness between the execution times of Skip List and Set is computed using the following formula:
+
+```
+closeness = (1 - abs(t1 - t2) / max(t1, t2)) * 100
+```
+
+Where:
+- `t1`: Time taken by Skip List.
+- `t2`: Time taken by Set.
+
+## How to Run the Benchmark
+
+1. Run [performance_check.ipynb](performance_check.ipynb)
+
+## Results
+
+- **Average Closeness**: `91.74%`
+- **Median Closeness**: `93.17%`
+
+These results indicate that the Skip List and Set implementations perform similarly in most test cases, with an average closeness of about 91.74%.
+
 
 ### Why Use Skip Lists?
 
