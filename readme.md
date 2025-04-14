@@ -29,7 +29,7 @@ When searching for an element, you start at the topmost level and move forward u
 | Section | Description |
 |:--------|:------------|
 | [include](include/) | Contains the header file [skip_list.h](include/skip_list.h), which provides my **circular** implementation of the skip list. This header can be included to use the skip list as a library/API. |
-| [skipList_vs_set](skipList_vs_set/) | Contains scripts to compare the outputs and execution times of the C++ `set` and my skip list implementation. For more details, see [this section](#skiplist_vs_set). |
+| [skipList_vs_set](skipList_vs_set/) | Contains scripts to compare the outputs and execution times of the C++ `set` and my skip list implementation. |
 | [src](src/) | Includes [source_code.cpp](src/source_code.cpp), which demonstrates insertion, search, and deletion operations on sample elements. |
 
 ## Implementation Methodology 🧠
