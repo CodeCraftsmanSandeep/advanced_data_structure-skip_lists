@@ -60,11 +60,12 @@ class skip_list{
 
     /*  Below helper function connect_right()
             inserts current node in between nodeL and nodeL->right */
-    void connect_left(struct node* nodeL, struct node* current);
+    void connect_right(struct node* current, struct node* nodeR);
 
     /*  Below helper function connect_left()
             inserts current node in between nodeR->left and nodeR */
-    void connect_right(struct node* current, struct node* nodeR);
+    void connect_left(struct node* nodeL, struct node* current);
+    
 
     /* Below helper function raise_up(current)
             Builds node up to the current based on probability distribution */
